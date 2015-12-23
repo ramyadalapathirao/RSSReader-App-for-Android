@@ -1,5 +1,5 @@
 
-Red Id:818608616
+
 Student Name: Ramya Krishna Dalapathirao
 App Name:RSSReader
 
