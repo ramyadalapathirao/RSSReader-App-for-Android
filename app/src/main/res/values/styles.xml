@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionModeBackground">@color/actionbar_color</item>
+        <item name="actionModeBackground">@color/actionbar_color</item>
+        <!-- <item name="android:actionBarTabStyle">@style/ActionBarTabStyle</item> -->
+        <!-- <item name="actionBarTabStyle">@style/ActionBarTabStyle</item> -->
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+
+    </style>
+    <style name="ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/actionbar_color</item>
+        <item name="backgroundStacked">@color/stacked_color</item>
+        <item name="backgroundSplit">@color/actionbar_color</item>
+        <item name="android:background">@color/actionbar_color</item>
+        <item name="android:backgroundStacked">@color/stacked_color</item>
+        <item name="android:backgroundSplit">@color/actionbar_color</item>
+    </style>
+
+
+
+
+
+</resources>

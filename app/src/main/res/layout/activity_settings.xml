@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="edu.sdsu.cs.ramya.rssreader.SettingsActivity">
+
+    <TextView android:text="@string/feed_settings" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/feedCount"
+        android:textColor="@color/actionbar_color"/>
+
+  <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_color"
+        android:layout_below="@+id/feedCount"
+        android:layout_marginTop="30dp"
+        android:id="@+id/view1"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsListView"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/view1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:drawSelectorOnTop="true"
+
+    />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_color"
+        android:layout_below="@+id/settingsListView"
+        android:id="@+id/view2"
+        android:layout_marginTop="2dp"
+        />
+
+
+
+
+</RelativeLayout>

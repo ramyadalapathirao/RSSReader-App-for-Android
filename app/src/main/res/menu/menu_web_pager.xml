@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.sdsu.cs.ramya.rssreader.WebViewPagerActivity">
+    <item android:id="@+id/action_open_in_browser" android:title="@string/menu_title_open_browser"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/ic_action_action_open_in_browser"/>
+    <item android:id="@+id/share_facebook" android:title="@string/share"
+        android:orderInCategory="99" android:icon="@drawable/ic_action_social_share"
+        app:showAsAction="always" />
+</menu>
